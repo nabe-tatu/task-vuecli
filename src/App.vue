@@ -1,16 +1,16 @@
 <template>
   <v-app>
     <v-main>
-      <login></login>
+      <home></home>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import Login from "./views/Login";
+import Home from "./views/Home";
 export default {
   name: 'App',
-  components: {Login},
+  components: {Home},
   data: () => ({
     //
   }),
